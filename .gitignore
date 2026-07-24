@@ -1,0 +1,22 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs and temporary output
+*.log
+*.tmp
+tmp/
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+!examples/**/*.key
